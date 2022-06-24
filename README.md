@@ -15,10 +15,13 @@ Here are the technologies used in this project.
 
 ## Services Used
 
+* Remix Icon
 * Github
 * Netlify
 
 ## Links
+
+  - Icons: https://remixicon.com/
   - Deploy on Netlify: https://plantifygarden.netlify.app/
   - Repository: https://github.com/decobaccili/plantifygarden
 
