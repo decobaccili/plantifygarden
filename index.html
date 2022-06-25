@@ -4,21 +4,56 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
   <title>Plantify Garden</title>
-  <style>
-    body{
-      background-color: green;
-    }
-
-    h1{
-      text-align: center;
-      color: white;
-      font-size: 40px;
-      padding-top: 50px;
-    }
-  </style>
 </head>
 <body>
-  <h1>Plantify Garden</h1>
+  <header>
+    <div class="box">
+      <nav class="menu">
+        <ul>
+          <li><a href="#">Shop</a></li>
+          <li class="products"><a href="#">Products <i class="ri-arrow-down-line"></i></a>
+            <li class="products__menu"><a href="#">Plants</a></li>
+            <li class="products__menu"><a href="#">Seeds</a></li>
+            <li class="products__menu"><a href="#">Plant stands</a></li>
+          </li>
+          <li><a href="#">Fertilizer</a></li>
+          <li><a href="#">Guide</a></li>
+        </ul>
+      </nav>
+      <h1 class="logo"><img src="logo-branco.png" alt="Plantify Garden"></h1>
+      <nav class="cart">
+        <ul class="cart">
+          <li><a href="#"><i class="ri-search-line"></i></a></li>
+          <li><a href="#"><i class="ri-user-line"></i></a></li>
+          <li><a href="#"><i class="ri-shopping-cart-2-line"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--Main-->
+  <main>
+    <!--Section 1 Banner-->
+    <div class="banner__box">
+
+      <div class="banner__box-content">
+        <h2 class="banner__title">Happiness blooms from within</h2>
+        <p class="banner__text">Our environment, the world in which we live and work, is a mirror of our attitudes and expectations.</p>
+        <button class="banner__button">Shop now</button>
+        <button class="banner__button">Explore plants <i class="ri-arrow-right-line"></i></button>
+      </div>
+    
+
+      <div class="banner__images">
+
+      </div>
+      
+    </div>
+  </main>
+  
 </body>
 </html>
